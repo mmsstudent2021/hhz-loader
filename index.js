@@ -1,4 +1,4 @@
-function showLoader(){
+export function showLoader(){
     const loaderDiv = document.createElement('div');
     loaderDiv.classList.add('loader')
     loaderDiv.innerHTML = `<div class="vh-100 d-flex justify-content-center align-items-center fixed-top">
@@ -10,11 +10,11 @@ function showLoader(){
     document.body.append(loaderDiv)
 }
 
-function removeLoader(){
+export function removeLoader(){
     document.querySelector(".loader").remove()
 }
 
-function showProgress(){
+export function showProgress(){
     const progressDiv = document.createElement('div');
     progressDiv.classList.add('top-progress')
     progressDiv.innerHTML = `<div class="progress fixed-top" style='height:10px'>
@@ -24,6 +24,6 @@ function showProgress(){
     document.body.append(progressDiv)
 }
 
-function removeProgress(){
+export function removeProgress(){
     document.querySelector(".top-progress").remove()
 }
