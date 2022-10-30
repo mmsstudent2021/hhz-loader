@@ -1,0 +1,22 @@
+{
+  "name": "hhz-loader",
+  "version": "1.0.0",
+  "description": "san kyi tar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmsstudent2021/hhz-loader.git"
+  },
+  "keywords": [
+    "hhz-loader"
+  ],
+  "author": "hein htet zan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmsstudent2021/hhz-loader/issues"
+  },
+  "homepage": "https://github.com/mmsstudent2021/hhz-loader#readme"
+}
